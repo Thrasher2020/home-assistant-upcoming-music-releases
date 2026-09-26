@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Upcoming Music Releases",
+        "description": "Enter your Discogs personal access token. Artists from your collection become part of the new-release pool.",
+        "data": {
+          "discogs_token": "Discogs personal access token"
+        }
+      },
+      "spotify": {
+        "title": "Spotify artist pool",
+        "description": "Pick the playlists whose artists should be watched, and choose whether followed artists are part of the pool too.",
+        "data": {
+          "spotify_playlist_id": "Playlists",
+          "include_followed": "Include followed artists"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to contact the service.",
+      "invalid_token": "The Discogs token is invalid."
+    },
+    "abort": {
+      "already_configured": "Upcoming Music Releases is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Upcoming Music Releases options",
+        "description": "Artist pool, store market and release window.",
+        "data": {
+          "spotify_playlist_id": "Playlists",
+          "include_followed": "Include followed artists",
+          "market": "Apple/iTunes store country (ISO 3166-1 alpha-2)",
+          "lookahead_months": "Lookahead window (months)",
+          "include_recent_days": "Also show releases from the last N days (0 = off)"
+        }
+      }
+    }
+  }
+}

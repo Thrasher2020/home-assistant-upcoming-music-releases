@@ -1,0 +1,12 @@
+{
+  "domain": "upcoming_music_releases",
+  "name": "Upcoming Music Releases",
+  "codeowners": ["@Thrasher2020"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/Thrasher2020/home-assistant-upcoming-music-releases",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Thrasher2020/home-assistant-upcoming-music-releases",
+  "loggers": ["upcoming_music_releases"],
+  "version": "0.1.0"
+}
