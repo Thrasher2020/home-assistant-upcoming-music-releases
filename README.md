@@ -30,10 +30,8 @@ artists you **follow on Spotify** — then:
 ### Via HACS (recommended)
 
 1. Open HACS in your Home Assistant sidebar.
-2. Go to **Integrations → ⋮ → Custom repositories**.
-3. Add `https://github.com/Thrasher2020/home-assistant-upcoming-music-releases` with category **Integration**.
-4. Click **Explore & download repositories**, search for **Upcoming Music Releases**, and download it.
-5. Restart Home Assistant.
+2. Search for Upcoming Music Releases in HACS
+3. Restart Home Assistant.
 
 ### Manual
 
